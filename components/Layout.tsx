@@ -7,7 +7,7 @@ const Layout = ({children}:{children:any}) => {
             <Meta />
             <Nav />
 
-            <div className="flex justify-center h-screen w-screen">
+            <div className="flex justify-center mt-20 w-screen">
                 {children}
             </div>
         </>

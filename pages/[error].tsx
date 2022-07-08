@@ -1,17 +1,18 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+const pageNotFound: NextPage = () => {
     return (
         <div>
             <Head>
-                <title>Jialin Wang | Home</title>
+                <title>Error | 404</title>
             </Head>
+
             <main>
-                <div>Home Page</div>
+                <div>Page Not Found</div>
             </main>
         </div>
     );
 };
 
-export default Home;
+export default pageNotFound;
